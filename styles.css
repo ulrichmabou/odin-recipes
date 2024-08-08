@@ -1,5 +1,9 @@
 /* styles.css */
 
+/* * {
+    outline: 2px solid red;
+} */
+
 /* Reset some basic styles */
 body, h1, h2, p, ul, ol, li, img {
     margin: 0;
@@ -76,7 +80,8 @@ ul {
 
 .main-page-ul  {
    list-style-type: none;
-   display: flex;
+   display: block;
+   text-align: center;
 }
 
 ul li {
